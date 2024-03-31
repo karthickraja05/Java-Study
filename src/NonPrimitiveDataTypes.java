@@ -19,7 +19,7 @@ public class NonPrimitiveDataTypes {
 		
 		
 		
-		System.out.println("arr:" + arr[4]);
+		System.out.println("arr:" + arr[0]);
 		
 	}
 }
