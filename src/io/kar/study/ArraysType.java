@@ -24,6 +24,11 @@ public class ArraysType {
 		
 		System.out.println("Element at index of 1: "+ arr2[1]);
 		
+		String a = "Karthick";
+		
+		System.out.println(a);
+		
+		
 		
 
 	}
