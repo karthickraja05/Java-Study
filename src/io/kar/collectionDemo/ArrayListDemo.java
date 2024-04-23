@@ -20,6 +20,14 @@ public class ArrayListDemo {
 
 		System.out.println(arrayList);
 
+		System.out.println("Array List Size : " + arrayList.size());
+
+		for(int i = 0 ; i < arrayList.size(); i++){
+			int temp = arrayList.get(i);
+			System.out.print(temp + " ");
+		}
+		System.out.println();
+
 		for (Integer item : arrayList) {
 			System.out.print(item + " ");
 		}
