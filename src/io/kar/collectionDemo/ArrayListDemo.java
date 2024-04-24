@@ -33,6 +33,28 @@ public class ArrayListDemo {
 		}
 		System.out.println();
 		
+
+		List<Integer> arrayList1 = new ArrayList<Integer>(5);
+
+		arrayList1.add(5);
+		arrayList1.add(1);
+		arrayList1.add(2);
+		arrayList1.add(3);
+		arrayList1.add(4);
+		arrayList1.add(14);
+		arrayList1.add(5);
+
+		arrayList1.add(0,4);
+		arrayList1.set(0,3);
+		arrayList1.remove(0);
+
+		System.out.println(arrayList1);
+		System.out.println(arrayList1.isEmpty());
+		System.out.println(arrayList1.indexOf(5));
+		System.out.println(arrayList1.lastIndexOf(5));
+		// System.out.println(arrayList1.get(1));
+
+
 	}
 
 }
