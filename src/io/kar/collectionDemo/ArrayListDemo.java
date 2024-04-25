@@ -52,6 +52,7 @@ public class ArrayListDemo {
 		System.out.println(arrayList1.isEmpty());
 		System.out.println(arrayList1.indexOf(5));
 		System.out.println(arrayList1.lastIndexOf(5));
+		System.out.println(arrayList1.contains(7));
 		// System.out.println(arrayList1.get(1));
 
 
